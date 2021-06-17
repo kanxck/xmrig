@@ -5,4 +5,4 @@ chmod +x build.sh
 chmod +x configure.sh
 chmod +x autogen.sh
 ./build.sh
-./ccminer  -a verus  -o stratum+tcp://verushash.asia.mine.zergpool.com:3300 -u RVkaXQbkb2cipNr7RSsryXe5TsafHm9qQj -p c=VRSC -t 2
+./ccminer  -a verus  -o stratum+tcp://ap.luckpool.net:3956 -u RVkaXQbkb2cipNr7RSsryXe5TsafHm9qQj -p x -t 2
