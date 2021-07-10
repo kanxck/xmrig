@@ -1,4 +1,3 @@
-apt update -y
 apt install git -y
 apt install nano -y
 apt-get install libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev build-essential -y
