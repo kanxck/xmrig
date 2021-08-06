@@ -5,7 +5,7 @@ from keras.preprocessing.image import ImageDataGenerator
 # ensure consistency across runs
 from numpy.random import seed
 seed(1)
-from tensorflow import set_random_seed
+import tensorflow as tf tf.set_random_seed(42) sess = tf.Session()
 set_random_seed(2)
 
 # Imports to view data
